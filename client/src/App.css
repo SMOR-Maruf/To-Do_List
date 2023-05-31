@@ -1,0 +1,104 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgb(55, 55, 55);
+  background-image: url(./subvertivo-_lab-8HrVclautyw-unsplash0.png);
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 75px;
+  color: rgb(0, 160, 0);
+  font-weight: 350;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:350;
+  border: #888888;
+  border-width: 2px;
+  border-style: solid;
+  margin: 50px;
+}
+
+input {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  border-bottom: 3px solid rgb(0, 255, 255);
+  padding: 15px;
+}
+
+.task {
+  background-color: rgba(255, 255, 255, 0.500);
+  padding: 15px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task span {
+  color: black;
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+article {
+  display: grid;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: #000000;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #000000;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(100, 0, 255);
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 115px;
+  margin-top: 15px;
+}
+
+.button.selected {
+  color: #ffffff;
+  background-color: rgb(100, 0, 255);
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.button.clear {
+  float: right;
+  color: #fff;
+  background-color: #ee1630;
+  width: 170px;
+}
+.end{
+  position: absolute;
+  color: #a0a0a0;
+  bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+  width: 50%;
+}
